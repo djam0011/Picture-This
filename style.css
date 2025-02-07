@@ -30,11 +30,39 @@ h4 {
 }
 
 img {
+  width: 100%;
+  height: auto;
   display: block;
 }
 
-@media (min-width: 960px) {
+
+@media screen and (max-width: 960px) {
+  .museum-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .museum-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 1920px) {
+  .museum-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media screen and (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+
